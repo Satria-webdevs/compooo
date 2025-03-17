@@ -23,16 +23,15 @@
 .marr{
     margin-top: 80px;
 }
-
 .text1{
-    margin-top: 220px;
-    text-align:end; 
+    font-size: 15px;
+    margin-top: 100px;
+    font-weight: bold;
+    text-align: center; 
     line-height: 1.2;
     text-transform:inherit;
     font-family: 'Open Sans', sans-serif;
-    color: blue(42, 156, 255);
-    justify-content: space-evenly;
-    font-family: 'Open Sans', sans-serif;
+    color: rgb(50, 152, 255);
 }
 
 .hr{
@@ -42,20 +41,6 @@
     border-radius: 5px;
     border: none;
   background: linear-gradient(to right, #0d3a5c, s#000000);
-}
-
-@media screen and (min-width: 1024px) {
-    .text2{
-        font-size: 150px;
-        margin-top: 40px;
-        font-weight: bold;
-        text-align: center; 
-        line-height: 1.2;
-        text-transform:inherit;
-        font-family: 'Open Sans', sans-serif;
-        color: rgb(54, 104, 255);
-        opacity: 30%;
-    }
 }
 
 .container-xxl {
