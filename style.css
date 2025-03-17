@@ -23,8 +23,34 @@ body {
     background-image: linear-gradient(to right, #ffffff, #5fb6f9);
 }
 
-.navi {
-    position: relative; /* Pastikan navbar memiliki posisi yang diatur */
-    z-index: 1; /* Memberikan prioritas agar berada di depan lingkaran */
-    background-color: white; /* Warna latar navbar (opsional) */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+}
+
+.item {
+    flex: 1 1 100%; /* Lebar penuh pada layar kecil */
+}
+
+@media (min-width: 768px) {
+    .item {
+        flex: 1 1 50%; /* Setengah layar untuk tablet */
+    }
+}
+
+@media (min-width: 1024px) {
+    .item {
+        flex: 1 1 25%; /* Seperempat layar untuk PC */
+    }
 }
