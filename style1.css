@@ -106,3 +106,19 @@
     text-align: center;
     color: white;
 }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1050;
+  }
+  .section {
+    height: 500px;  
+    padding: 20px;
+  }
+
+  .section-quiet{
+    height: 300px;  
+    padding: 20px;
+  }
